@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Inventory XML Data -->
+<inventory xmlns="https://www.cisco.com/ns/routers"
+           xmlns:prod="https://www.cisco.com/ns/routers/prod">
+    <prod:device name="csr1kv1"> 
+        <prod:osversion>16.09</prod:osversion>
+        <prod:uptime>2 days</uptime>
+        <prod:vendor>cisco</prod:vendor>
+        <prod:serial>XB968781</prod:serial>
+        <prod:snmp name="public" permission="ro"/>
+        <prod:snmp name="private" permission="rw"/>
+    </prod:device>
+</inventory>
