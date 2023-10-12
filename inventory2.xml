@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Inventory XML Data -->
+<data>
+    <inventory xmlns="https://www.cisco.com/ns/routers">
+        <device name="csr1kv1">
+            <osversion>16.09</osversion>
+            <uptime>2 days</uptime>
+            <vendor>cisco</vendor>
+            <serial>XB968761</serial>
+            <snmp name="public" permission="ro"/>
+            <snmp name="private" permission="rw"/>
+        </device>
+    </inventory>
+
+    <inventory xmlns="https://www.dell.com/ns/servers">
+        <server name="Compute_SRV">
+            <dist>Ubuntu</dist>
+            <vendor>Dell</vendor>
+            <model>XP720</model>
+            <license>Enterprise</license>
+            <interfaces>4</interfaces>
+            <serial>183AF789</serial>
+        </server>
+    </inventory>
+</data>
